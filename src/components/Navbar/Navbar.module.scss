@@ -1,0 +1,28 @@
+.navegacao {
+
+    align-items: center;
+    background-color: yellowgreen;
+    display: flex;
+    height: 10vh;
+
+    ul {
+
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        width: 100%;
+
+        .link {
+
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+
+            &:hover {
+                
+                text-decoration: underline;
+            }
+        }
+    }
+}
